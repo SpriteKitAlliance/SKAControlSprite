@@ -8,6 +8,24 @@
 
 import SpriteKit
 
+/**
+ Example Usage:
+ 
+ let sliderSprite = SliderSprite()
+ sliderSprite.addTarget(self, selector: #selector(sliderChanged(_:)), forControlEvents: .ValueChanged)
+ addChild(sliderSprite)
+
+ .
+ .
+ .
+
+ func sliderChanged(_ sliderSprite : SliderSprite) {
+   let stringValue = String(format: "%.3f", Double(sliderSprite.value))
+   label.text = "SliderSprite updated value to \(stringValue)"
+ }
+
+*/
+
 class SliderSprite : SKAControlSprite {
   private let thumbSprite = SKSpriteNode(imageNamed: "thumb")
   private var trackedTouch : UITouch?

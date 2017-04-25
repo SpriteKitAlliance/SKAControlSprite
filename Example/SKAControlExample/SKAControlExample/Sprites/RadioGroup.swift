@@ -8,6 +8,25 @@
 
 import SpriteKit
 
+/**
+ Example Usage:
+ 
+ let radioGroup = RadioGroup()
+ radioGroup.addTarget(self, selector: #selector(radioGroupChanged(_:)), forControlEvents: .ValueChanged)
+ addChild(radioGroup)
+
+ .
+ .
+ .
+ 
+ func radioGroupChanged(_ radioGroup: RadioGroup) {
+   //Do Something here!
+ 
+   print("value here \(radioGroup.value)")
+ }
+
+*/
+
 class RadioGroup : SKAControlSprite {
   private var option1 = RadioButton()
   private var option2 = RadioButton()

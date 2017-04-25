@@ -8,6 +8,24 @@
 
 import SpriteKit
 
+/**
+ - Note: This sprite handles tapping and dragging to update the value of the switch
+ 
+ Example Usage:
+
+ let switchSprite = SwitchSprite()
+ switchSprite.addTarget(self, selector: #selector(switchChanged(_:)), forControlEvents: .ValueChanged)
+ addChild(switchSprite)
+
+ .
+ .
+ .
+
+ func switchChanged(_ switchSprite : SwitchSprite) {
+   label.text = "SwitchSprite updated value to \(switchSprite.selected)"
+ }
+*/
+
 class SwitchSprite: SKAControlSprite {
   private let swipeThreshold : CGFloat = 50
   private var startTouchPosition : CGPoint?

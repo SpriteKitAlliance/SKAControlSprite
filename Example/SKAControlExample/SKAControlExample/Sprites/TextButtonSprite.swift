@@ -8,6 +8,31 @@
 
 import SpriteKit
 
+/**
+  Example Usage:
+ 
+ let backButton = TextButtonSprite()
+
+ backButton.setup(text: "BACK", fontSize: 15, autoResize: false)
+ backButton.size = CGSize(width: 70, height: 44)
+ backButton.color = .black
+ backButton.addTarget(self, selector: #selector(backButtonPressed(_:)), forControlEvents: .TouchUpInside)
+ addChild(backButton)
+
+ .
+ .
+ .
+ 
+
+ func backButtonPressed(_ : TextButtonSprite) {
+   let scene = MenuScene()
+   scene.size = size
+   let reveal = SKTransition.reveal(with: .right, duration: 1)
+
+   view?.presentScene(scene, transition: reveal)
+ }
+*/
+
 class TextButtonSprite : AlphaButton {
   private var label : SKLabelNode!
 

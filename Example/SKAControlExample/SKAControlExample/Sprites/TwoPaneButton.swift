@@ -8,6 +8,24 @@
 
 import SpriteKit
 
+/**
+ Example usage:
+ 
+ let controlTestButton = TwoPaneButton(size: CGSize(width: frame.size.width * 0.75, height: 50))
+ controlTestButton.setup(text: "Control Test!", fontSize: 30, autoResize: false)
+ controlTestButton.addTarget(self, selector: #selector(navigateToControlTest(_:)), forControlEvents: .TouchUpInside)
+ addChild(controlTestButton)
+ 
+ .
+ .
+ .
+ 
+ func navigateToSliderFun(_ button : TwoPaneButton) {
+   //Button clicked
+ }
+
+*/
+
 class TwoPaneButton : SKAControlSprite {
   private var foregroundPane : SKSpriteNode!
   private var backgroundPane : SKSpriteNode!

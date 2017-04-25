@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB8CD37C1EAE937600D84FB4 /* SKATestScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8CD37B1EAE937600D84FB4 /* SKATestScene.swift */; };
 		BB95F4FA1EA9081B0040553D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB95F4F91EA9081B0040553D /* AppDelegate.swift */; };
 		BB95F5051EA9081B0040553D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB95F5031EA9081B0040553D /* Main.storyboard */; };
 		BB95F5071EA9081B0040553D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB95F5061EA9081B0040553D /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB8CD37B1EAE937600D84FB4 /* SKATestScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKATestScene.swift; sourceTree = "<group>"; };
 		BB95F4F61EA9081B0040553D /* SKAControlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKAControlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB95F4F91EA9081B0040553D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB95F5041EA9081B0040553D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				BB95F5141EA90B2B0040553D /* SliderFunScene.swift */,
 				BB95F53A1EA94D710040553D /* MenuScene.swift */,
 				BB95F53C1EA9510B0040553D /* ControlTestScene.swift */,
+				BB8CD37B1EAE937600D84FB4 /* SKATestScene.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				BB95F5351EA911150040553D /* TwoPaneButton.swift in Sources */,
 				BB95F5311EA911150040553D /* CheckboxSprite.swift in Sources */,
 				BB95F5321EA911150040553D /* RadioGroup.swift in Sources */,
+				BB8CD37C1EAE937600D84FB4 /* SKATestScene.swift in Sources */,
 				BB95F53D1EA9510B0040553D /* ControlTestScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

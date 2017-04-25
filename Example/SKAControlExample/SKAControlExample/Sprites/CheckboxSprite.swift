@@ -8,6 +8,23 @@
 
 import SpriteKit
 
+/**
+ Example Usage:
+ 
+ let checkboxButton = CheckBoxSprite()
+ checkboxButton.addTarget(self, selector: #selector(checkBoxChanged(_:)), forControlEvents: .ValueChanged)
+ addChild(checkboxButton)
+ 
+ .
+ .
+ .
+
+ func checkBoxChanged(_ checkbox : CheckBoxSprite) {
+   //Do something here!
+ }
+
+ */
+
 class CheckBoxSprite : SKAControlSprite {
   private let checkSprite = SKSpriteNode(imageNamed: "checkbox-checked")
 

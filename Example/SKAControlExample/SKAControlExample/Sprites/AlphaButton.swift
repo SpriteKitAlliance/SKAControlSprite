@@ -8,6 +8,22 @@
 
 import SpriteKit
 
+/**
+ Example Usage:
+
+ let alphaButton = AlphaButton(imageNamed: "simpleButton")
+ alphaButton.addTarget(self, selector: #selector(alphaButtonPressed(_:)), forControlEvents: .TouchUpInside)
+ addChild(alphaButton)
+ 
+ .
+ .
+ .
+
+ func alphaButtonPressed(_ : AlphaButton) {
+   //Do Something Here!
+ }
+*/
+
 class AlphaButton : SKAControlSprite {
   override func updateControl() {
     if controlState.contains(.Disabled) {

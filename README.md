@@ -9,7 +9,7 @@ The Sprite Kit Alliance is happy to provide the SKAControlSprite, SKAToolKit, an
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/SpriteKitAlliance/SKAButton/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/badge/twitter-@SKADevs-55ACEE.svg)](http://twitter.com/SKADevs)
 
-## SKAToolKit Install Instructions
+## SKControlSprite Install Instructions
 
 ### Using Cocoapods
 ```ogdl
